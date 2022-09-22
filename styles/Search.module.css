@@ -4,18 +4,36 @@
 }
 
 .coin_input {
-    height: 2.5rem;
+    height: 2rem;
     width: 30rem;
+    background-color: #EEEAE2;
     border-radius: 5px;
+    border-color: #4B311E;
+    font-size: 1rem;
 }
 
 .coin_button {
-    color: brown;
-    background-color: blanchedalmond;
+    color: #4B311E;
+    background-color: #EEEAE2;
     display: inline-block;
     margin-left: 4px;
-    height: 2.85rem;
+    height: 2.4rem;
     width: 6rem;
-    border-color: brown;
+    border-color: #4B311E;
     border-radius: 5px;
 }
+
+/* 
+    Color Scheme
+
+title brown #4B311E
+
+white brown #EEEAE2 
+
+light brown #C7A991
+
+dark highlight brown #130E08
+
+soft text on white brown #5F5A56
+
+*/

@@ -5,7 +5,7 @@ import styles from '../styles/Home.module.css'
 
 export default function Home() {
   return (
-    <div>
+    <div className={styles.page}>
       <Head>
         <title> CryptoHub </title>
       </Head>
