@@ -1,4 +1,4 @@
-import styles from "./Search.module.css"
+import styles from "../styles/Search.module.css";
 
 export default function SearchBar() {
   return (

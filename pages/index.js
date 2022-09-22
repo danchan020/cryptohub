@@ -1,7 +1,7 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import SearchBar from '../components/SearchBar'
 import styles from '../styles/Home.module.css'
+
 
 export default function Home() {
   return (
@@ -9,7 +9,9 @@ export default function Home() {
       <Head>
         <title> CryptoHub </title>
       </Head>
-        <div> Hello World! :D </div>
+        <div className={styles.header}>
+          <h1 className={styles.title}> CryptoHub </h1> 
+        </div>
       <SearchBar></SearchBar>
     </div>
   )
