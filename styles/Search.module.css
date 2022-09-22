@@ -6,29 +6,37 @@
 .coin_input {
     height: 2rem;
     width: 30rem;
-    background-color: #EEEAE2;
+    background-color: #F1E3D7;
     border-radius: 5px;
     border-color: #4B311E;
     font-size: 1rem;
 }
 
 .coin_button {
+    font-size: 15px;
     color: #4B311E;
-    background-color: #EEEAE2;
+    background-color: #F1E3D7;
     display: inline-block;
     margin-left: 4px;
     height: 2.4rem;
     width: 6rem;
     border-color: #4B311E;
     border-radius: 5px;
+    transition: .4s;
 }
+
+.coin_button:hover {
+    background-color: #4B311E;
+    border: none;
+    color: #F1E3D7
+};
 
 /* 
     Color Scheme
 
 title brown #4B311E
 
-white brown #EEEAE2 
+white brown #F1E3D7 
 
 light brown #C7A991
 
