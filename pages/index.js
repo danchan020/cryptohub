@@ -12,7 +12,12 @@ export default function Home() {
         <div className={styles.header}>
           <h1 className={styles.title}> CryptoHub </h1> 
         </div>
-      <SearchBar></SearchBar>
+        <div>
+          <SearchBar></SearchBar>
+        </div>
+        <div>
+          grab crypto api and display in cards
+        </div>
     </div>
   )
 }
