@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import CryptoCoins from '../components/CryptoCoins'
 import SearchBar from '../components/SearchBar'
 import styles from '../styles/Home.module.css'
 
@@ -13,10 +14,10 @@ export default function Home() {
           <h1 className={styles.title}> CryptoHub </h1> 
         </div>
         <div>
-          <SearchBar></SearchBar>
+          <SearchBar/>
         </div>
         <div>
-          grab crypto api and display in cards
+          <CryptoCoins/>
         </div>
     </div>
   )
