@@ -23,7 +23,14 @@ export default function Home() {
   )
 }
 export const getServerSideProps = async () => {
-  const res = await fetch('https://coingecko.p.rapidapi.com/coins/markets?vs_currency=usd&price_change_percentage=1h%2C%2024h%2C%207d&page=1&sparkline=true&per_page=10&order=market_cap_desc')
+  const options = {
+    method: 'GET',
+    headers: {
+      'X-RapidAPI-Key': '1fd5acc9dbmsh41a73d749bd26dep10ed29jsnab6c8459fc9e',
+      'X-RapidAPI-Host': 'coingecko.p.rapidapi.com'
+    }
+  };
+  const res = await fetch('https://coingecko.p.rapidapi.com/coins/markets?vs_currency=usd&price_change_percentage=1h%2C%2024h%2C%207d&page=1&sparkline=true&per_page=10&order=market_cap_desc', options)
   const filteredCoins = await res.json()
     return {
       props: {

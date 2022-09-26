@@ -1,7 +1,16 @@
 import Coin from "./Coin"
 
-export default function CoinsList() {
+export default function CoinsList({filteredCoins}) {
   return (
-    <div>CoinsList</div>
+    <div>
+        {filteredCoins.map( coin => { 
+            return (
+                <Coin 
+                key = {coin.id}
+                
+                />
+            )
+        })}
+    </div>
   )
 }
