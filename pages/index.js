@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import CryptoCoins from '../components/CryptoCoins'
+import CoinsList from '../components/CoinsList'
 import SearchBar from '../components/SearchBar'
 import styles from '../styles/Home.module.css'
 
@@ -17,7 +17,7 @@ export default function Home() {
           <SearchBar/>
         </div>
         <div>
-          <CryptoCoins/>
+          <CoinsList/>
         </div>
     </div>
   )
