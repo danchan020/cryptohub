@@ -10,12 +10,14 @@ export default function Coin({...props}) {
         <h1>{props.name}</h1>
         <p>{props.symbol.toUpperCase()}</p>
         <p>${props.price}</p>
-        <p>{props.onehr}</p>
-        <p>{props.twentyfourhr}</p>
-        <p>{props.sevenday}</p>
-        <p>{props.marketcap}</p>
-        <p>{props.volume}</p>
-        <p>{props.supply}</p>
+        <div>
+          <p>{props.onehr.toFixed(2)}</p>
+          <p>{props.twentyfourhr.toFixed(2)}</p>
+          <p>{props.sevenday.toFixed(2)}</p>
+        </div>
+        <p>${props.volume.toLocaleString()}</p>
+        <p>${props.marketcap.toLocaleString()}</p>
+        <p>${props.supply.toLocaleString()}</p>
       </div>
     </div>
   )
