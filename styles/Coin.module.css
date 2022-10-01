@@ -1,5 +1,6 @@
 .coin_row {
     display: flex;
+    margin: 1rem
 }
 
 .coin_image {
