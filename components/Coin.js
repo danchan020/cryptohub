@@ -18,6 +18,7 @@ export default function Coin({...props}) {
         <p>${props.volume.toLocaleString()}</p>
         <p>${props.marketcap.toLocaleString()}</p>
         <p>${props.supply.toLocaleString()}</p>
+        check
       </div>
     </div>
   )
