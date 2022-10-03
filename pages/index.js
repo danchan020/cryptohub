@@ -2,6 +2,7 @@ import Head from 'next/head'
 import CoinsList from '../components/CoinsList'
 import SearchBar from '../components/SearchBar'
 import styles from '../styles/Home.module.css'
+// google fonts inter 
 
 
 export default function Home({filteredCoins}) {
