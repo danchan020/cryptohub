@@ -1,6 +1,7 @@
 .coin_row {
     display: flex;
-    margin: 1rem
+    margin: 1rem;
+    font-family:'Inter';
 }
 
 .coin_image {
