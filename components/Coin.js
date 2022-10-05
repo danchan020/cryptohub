@@ -11,9 +11,9 @@ export default function Coin({...props}) {
         <p>{props.symbol.toUpperCase()}</p>
         <p>${props.price}</p>
         <div>
-          <p>{props.onehr.toFixed(2)}</p>
-          <p>{props.twentyfourhr.toFixed(2)}</p>
-          <p>{props.sevenday.toFixed(2)}</p>
+          {props.onehr < 0 ? (<p className="coin_percent_red">{props.onehr.toFixed(2)}</p>) : (<p className="coin_percent_green">{props.onehr.toFixed(2)}</p>)}
+          {props.twentyfourhr < 0 ? (<p className="coin_percent_red">{props.twentyfourhr.toFixed(2)}</p>) : (<p className="coin_percent_green">{props.twentyfourhr.toFixed(2)}</p>)}
+          {props.sevenday < 0 ? (<p className="coin_percent_red">{props.sevenday.toFixed(2)}</p>) : (<p className="coin_percent_green">{props.sevenday.toFixed(2)}</p>)}
         </div>
         <p>${props.volume.toLocaleString()}</p>
         <p>${props.marketcap.toLocaleString()}</p>
