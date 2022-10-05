@@ -9,3 +9,11 @@
     height: 2.25rem;
     margin-right: 1rem;
 }
+
+.coin_percent_red {
+    color: red;
+}
+
+.coin_percent_green {
+    color: green;
+}
