@@ -1,13 +1,33 @@
+.coin_container {
+    justify-content: center;
+}
+
 .coin_row {
     display: flex;
+    justify-content: flex-start;
+    align-items: center;
     margin: 1rem;
     font-family:'Inter';
+    border-bottom: 1px solid gray;
+}
+
+.coin_row p {
+    display: flex;
+    align-items: center;
+}
+
+.coin {
+    display: flex;
 }
 
 .coin_image {
     width: 2.25rem;
     height: 2.25rem;
     margin-right: 1rem;
+}
+
+.coin_data {
+    display: flex;
 }
 
 .coin_percent_red {

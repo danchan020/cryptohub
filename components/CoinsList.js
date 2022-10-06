@@ -1,8 +1,9 @@
 import Coin from "./Coin"
+import styles from "../styles/Coin.module.css";
 
 export default function CoinsList({filteredCoins}) {
   return (
-    <div>
+    <div className={styles.coin_container}>
         {filteredCoins.map( coin => { 
             return (
                 <Coin 
