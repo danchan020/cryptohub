@@ -6,6 +6,9 @@
     margin: 0rem 1rem;
     padding-bottom: 1rem;
     padding-top: 1rem;
+    font-family: 'Inter';
+    font-size: 15px;
+    font-weight: 600;
 }
 
 /* .coin_header p {
