@@ -1,3 +1,17 @@
+.coin_header {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #4B311E;
+    border-top: 1px solid #4B311E;
+    margin: 0rem 1rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+
+/* .coin_header p {
+
+} */
+
 .coin_container {
     justify-content: center;
 }
@@ -7,8 +21,10 @@
     justify-content: flex-start;
     align-items: center;
     margin: 1rem;
+    margin-bottom: 0;
+    padding-bottom: 1rem;
     font-family:'Inter';
-    border-bottom: 1px solid gray;
+    border-bottom: 1px solid #4B311E;
 }
 
 .coin_row p {
@@ -20,9 +36,15 @@
     display: flex;
 }
 
+.coin h1 {
+    display: flex;
+    font-size: 20px;
+    align-items: center;
+}
+
 .coin_image {
-    width: 2.25rem;
-    height: 2.25rem;
+    width: 2rem;
+    height: 2rem;
     margin-right: 1rem;
 }
 

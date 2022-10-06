@@ -3,7 +3,18 @@ import styles from "../styles/Coin.module.css";
 
 export default function CoinsList({filteredCoins}) {
   return (
-    <div className={styles.coin_container}>
+    <div className={styles.main}>
+      <div className={styles.coin_header}>
+        <p> Coin </p>
+        <p> Price </p>
+        <p> 1h </p>
+        <p> 24h </p>
+        <p> 7d </p>
+        <p> 24h volume </p>
+        <p> Mkt Cap </p>
+        <p> Last 7 Days </p>
+      </div>
+        <div className={styles.coin_container}>
         {filteredCoins.map( coin => { 
             return (
                 <Coin 
@@ -22,6 +33,7 @@ export default function CoinsList({filteredCoins}) {
                 />
             )
         })}
+        </div>
     </div>
   )
 }

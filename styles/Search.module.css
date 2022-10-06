@@ -1,6 +1,7 @@
 .coin_search {
     display: flex;
     justify-content: center;
+    margin-bottom: 2.5rem;
 }
 
 .coin_input {
