@@ -4,8 +4,7 @@
     border-bottom: 1px solid #4B311E;
     border-top: 1px solid #4B311E;
     margin: 0rem 1rem;
-    padding-bottom: 1rem;
-    padding-top: 1rem;
+    padding: 1rem 0rem;
     font-family: 'Inter';
     font-size: 15px;
     font-weight: 600;
@@ -23,9 +22,8 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    margin: 1rem;
-    margin-bottom: 0;
-    padding-bottom: 1rem;
+    margin: 0rem 1rem;
+    padding: 1rem 0rem;
     font-family:'Inter';
     border-bottom: 1px solid #4B311E;
 }

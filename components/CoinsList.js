@@ -10,7 +10,7 @@ export default function CoinsList({filteredCoins}) {
         <p> 1h </p>
         <p> 24h </p>
         <p> 7d </p>
-        <p> 24h volume </p>
+        <p> 24h Volume </p>
         <p> Mkt Cap </p>
         <p> Last 7 Days </p>
       </div>
