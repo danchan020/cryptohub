@@ -6,7 +6,7 @@
     margin: 0rem 3rem;
     padding: 1rem 0rem;
     font-family: 'Inter';
-    font-size: 14px;
+    font-size: 13px;
     font-weight: 600;
 }
 
@@ -52,6 +52,7 @@
 .coin {
     display: flex;
     margin: 0rem 1rem;
+    width: 30rem;
 }
 
 .coin_image {
