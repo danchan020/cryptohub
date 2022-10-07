@@ -10,9 +10,9 @@
     font-weight: 600;
 }
 
-/* .coin_header p {
-
-} */
+.coin_header p {
+    display: flex;
+}
 
 .coin_container {
     justify-content: center;
