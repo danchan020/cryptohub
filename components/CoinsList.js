@@ -5,14 +5,18 @@ export default function CoinsList({filteredCoins}) {
   return (
     <div className={styles.main}>
       <div className={styles.coin_header}>
-        <p> Coin </p>
-        <p> Price </p>
-        <p> 1h </p>
-        <p> 24h </p>
-        <p> 7d </p>
-        <p> 24h Volume </p>
-        <p> Mkt Cap </p>
-        <p> Last 7 Days </p>
+        <div className={styles.coin_header_title}>
+          <p> Coin </p>
+        </div>
+        <div className={styles.coin_header_data}>
+          <p> Price </p>
+          <p> 1h </p>
+          <p> 24h </p>
+          <p> 7d </p>
+          <p> 24h Volume </p>
+          <p> Mkt Cap </p>
+          <p> Last 7 Days </p>
+        </div>
       </div>
         <div className={styles.coin_container}>
         {filteredCoins.map( coin => { 
