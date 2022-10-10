@@ -4,7 +4,7 @@ export default function Coin({...props}) {
   return (
     <div className={styles.coin_row}>
       <div className={styles.coin}>
-        <img className={styles.coin_image} src={props.image} ></img>
+        <img className={styles.coin_image} src={props.image}></img>
         <h1>{props.name}</h1>
         <p>{props.symbol.toUpperCase()}</p>
       </div>
@@ -21,3 +21,4 @@ export default function Coin({...props}) {
   )
 }
 //sparkline chart.js 
+//well try again later
