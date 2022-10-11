@@ -3,7 +3,7 @@
     align-items: center;
     border-bottom: 1px solid #4B311E;
     border-top: 1px solid #4B311E;
-    margin: 0rem 3rem;
+    /* margin: 0rem 3rem; */
     padding: 1rem 0rem;
     font-family: 'Inter';
     font-size: 13px;
@@ -14,6 +14,7 @@
     display: flex;
     align-items: center;
     text-align: left;
+    width: 10%;
 }
 
 .coin_header_data {
@@ -21,12 +22,13 @@
     align-items: center;
     text-align: right;
     justify-content: space-between;
-    width: 100%;
+    margin-right: 4rem;
+    width: 90%;
 }
 
 .coin_header p {
-    width: 100%;
     justify-content: space-between;
+    margin-left: 4rem;
 }
 
 .coin_container {
