@@ -14,7 +14,7 @@
     display: flex;
     align-items: center;
     text-align: left;
-    width: 10%;
+    width: 25%;
 }
 
 .coin_header_data {
@@ -23,12 +23,15 @@
     text-align: right;
     justify-content: space-between;
     margin-right: 4rem;
-    width: 90%;
+    width: 75%;
 }
 
 .coin_header p {
-    justify-content: space-between;
     margin-left: 4rem;
+}
+
+.coin_header_data p:first-of-type {
+    padding-left: 1rem;
 }
 
 .coin_container {
@@ -54,7 +57,7 @@
 .coin {
     display: flex;
     margin: 0rem 1rem;
-    width: 30rem;
+    width: 25%;
 }
 
 .coin_image {
@@ -81,7 +84,7 @@
 .coin_data {
     display: flex;
     justify-content: space-between;
-    width: 100%;
+    width: 75%;
 }
 
 .coin_data p{
