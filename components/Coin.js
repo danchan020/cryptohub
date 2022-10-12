@@ -21,4 +21,3 @@ export default function Coin({...props}) {
   )
 }
 //sparkline chart.js 
-//well try again later
